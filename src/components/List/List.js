@@ -1,5 +1,6 @@
 import { CssBaseline, Paper, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import Title from './Title'
 
 const useStyle = makeStyles((theme) => ({
     root: {
@@ -15,7 +16,7 @@ const List = () => {
         <div>
             <Paper className={classes.root}>
                 <CssBaseline />
-                <Typography> Todo </Typography>
+                <Title />
             </Paper>
         </div>
      );
